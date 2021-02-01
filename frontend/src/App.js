@@ -65,13 +65,13 @@ function App() {
               amazona
             </Link>
           </div>
-          <div>
+          {/* <div>
             <Route
               render={({ history }) => (
                 <SearchBox history={history}></SearchBox>
               )}
             ></Route>
-          </div>
+          </div> */}
           <div>
             <Link to="/cart">
               Cart
