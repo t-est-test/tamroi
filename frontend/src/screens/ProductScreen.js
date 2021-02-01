@@ -76,9 +76,9 @@ export default function ProductScreen(props) {
                     numReviews={product.numReviews}
                   ></Rating>
                 </li>
-                <li>Pirce : ${product.price}</li>
+                {/* <li>Pirce : ${product.price}</li> */}
                 <li>
-                  Description:
+                  รายละเอียด:
                   <p>{product.description}</p>
                 </li>
               </ul>
@@ -86,7 +86,7 @@ export default function ProductScreen(props) {
             <div className="col-1">
               <div className="card card-body">
                 <ul>
-                  <li>
+                  {/* <li>
                     Seller{' '}
                     <h2>
                       <Link to={`/seller/${product.seller._id}`}>
@@ -97,14 +97,14 @@ export default function ProductScreen(props) {
                       rating={product.seller.seller.rating}
                       numReviews={product.seller.seller.numReviews}
                     ></Rating>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <div className="row">
                       <div>Price</div>
                       <div className="price">${product.price}</div>
                     </div>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <div className="row">
                       <div>Status</div>
                       <div>
@@ -115,10 +115,10 @@ export default function ProductScreen(props) {
                         )}
                       </div>
                     </div>
-                  </li>
+                  </li> */}
                   {product.countInStock > 0 && (
                     <>
-                      <li>
+                      {/* <li>
                         <div className="row">
                           <div>Qty</div>
                           <div>
@@ -136,7 +136,7 @@ export default function ProductScreen(props) {
                             </select>
                           </div>
                         </div>
-                      </li>
+                      </li> */}
                       <li>
                         <button
                           onClick={addToCartHandler}
@@ -178,12 +178,12 @@ export default function ProductScreen(props) {
                         value={rating}
                         onChange={(e) => setRating(e.target.value)}
                       >
-                        <option value="">Select...</option>
-                        <option value="1">1- Poor</option>
-                        <option value="2">2- Fair</option>
-                        <option value="3">3- Good</option>
-                        <option value="4">4- Very good</option>
-                        <option value="5">5- Excelent</option>
+                        <option value="">เลือกคะแนน...</option>
+                        <option value="1">1- แย่</option>
+                        <option value="2">2- พอใช้</option>
+                        <option value="3">3- ปานกลาง</option>
+                        <option value="4">4- ดี</option>
+                        <option value="5">5- ดีมาก</option>
                       </select>
                     </div>
                     <div>
@@ -211,7 +211,7 @@ export default function ProductScreen(props) {
                   </form>
                 ) : (
                   <MessageBox>
-                    Please <Link to="/signin">Sign In</Link> to write a review
+                    กรุณา <Link to="/signin">เข้าสู่ระบบ</Link> เพื่อเขียนรีวิว
                   </MessageBox>
                 )}
               </li>
