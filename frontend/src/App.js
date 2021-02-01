@@ -86,10 +86,10 @@ function App() {
                 </Link>
                 <ul className="dropdown-content">
                   <li>
-                    <Link to="/profile">User Profile</Link>
+                    <Link to="/profile">แก้ไขโปรไฟล์</Link>
                   </li>
                   <li>
-                    <Link to="/orderhistory">Order History</Link>
+                    <Link to="/orderhistory">ประวัติการเช็คอิน</Link>
                   </li>
                   <li>
                     <Link to="#signout" onClick={signoutHandler}>
