@@ -36,10 +36,10 @@ export default function HomeScreen() {
         <>
           {sellers.length === 0 && <MessageBox>No Seller Found</MessageBox>}
           <Carousel showArrows autoPlay showThumbs={false}>
-            {sellers.map((seller) => (
-              <div key={seller._id}>
-                <Link to={`/seller/${seller._id}`}>
-                  <img src={seller.seller.logo,seller.seller.logo1} />
+            {products.map((products) => (
+              <div key={products._id}>
+                <Link to={`/product/${products._id}`}>
+                  <img src={products.products.logo} />
                   {/* <img src={seller.seller.logo,seller.seller.logo1}  alt={seller.seller.name} /> */}
                   {/* <p className="legend">{seller.seller.name}</p> */}
                 </Link>
