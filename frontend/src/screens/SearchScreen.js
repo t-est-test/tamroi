@@ -60,10 +60,10 @@ export default function SearchScreen(props) {
         ) : error ? (
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
-          <div>{products.length} Results</div>
+          <div>{products.length} สถานที่</div>
         )}
         <div>
-          Sort by{' '}
+          จัดเรียงตาม{' '}
           <select
             value={order}
             onChange={(e) => {

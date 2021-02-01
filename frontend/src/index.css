@@ -270,7 +270,7 @@ img.large {
   min-width: 15rem;
   padding: 1rem;
   z-index: 1;
-  background-color: #203040;
+  background: linear-gradient(to right, #8f5d21, #e1b85b);
   margin: 0;
   margin-top: 0.4rem;
   border-radius: 0.5rem;
