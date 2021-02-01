@@ -41,11 +41,11 @@ export default function RegisterScreen(props) {
         {loading && <LoadingBox></LoadingBox>}
         {error && <MessageBox variant="danger">{error}</MessageBox>}
         <div>
-          <label htmlFor="name">ชื่อ</label>
+          <label htmlFor="name">ชื่อเล่น</label>
           <input
             type="text"
             id="name"
-            placeholder="ชื่อ"
+            placeholder="ชื่อเล่น"
             required
             onChange={(e) => setName(e.target.value)}
           ></input>
