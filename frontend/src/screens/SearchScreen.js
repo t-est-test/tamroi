@@ -70,7 +70,7 @@ export default function SearchScreen(props) {
               props.history.push(getFilterUrl({ order: e.target.value }));
             }}
           >
-            <option value="newest">Newest Arrivals</option>
+            <option value="newest">สถานที่ใหม่ล่าสุด</option>
             <option value="lowest">เก่า - ใหม่</option>
             {/* <option value="highest">Price: High to Low</option> */}
             {/* <option value="toprated">Avg. Customer Reviews</option> */}
