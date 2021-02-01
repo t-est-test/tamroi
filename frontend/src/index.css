@@ -215,6 +215,9 @@ img.large {
 .card-body {
   padding: 1rem;
 }
+.card-bodyhome {
+  padding: 1rem;
+}
 .card-body > * {
   margin-bottom: 0.5rem;
 }
