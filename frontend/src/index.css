@@ -208,7 +208,7 @@ img.large {
   margin: 1rem;
   width: 235px;
 }
-.cardhome.card-body h2 {
+.card-body a h2 {
   margin: 0;
   font-size: 13px;
 }
