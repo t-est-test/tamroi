@@ -272,7 +272,7 @@ img.large {
   z-index: 1;
   background: linear-gradient(to right, #8f5d21, #e1b85b);
   margin: 0;
-  margin-top: 0.4rem;
+  margin-top: 1.5rem;
   border-radius: 0.5rem;
 }
 .dropdown:hover .dropdown-content {

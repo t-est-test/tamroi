@@ -62,7 +62,7 @@ export default function ProfileScreen() {
     <div>
       <form className="form" onSubmit={submitHandler}>
         <div>
-          <h1>User Profile</h1>
+          <h1>แก้ไขโปรไฟล์</h1>
         </div>
         {loading ? (
           <LoadingBox></LoadingBox>
@@ -76,44 +76,44 @@ export default function ProfileScreen() {
             )}
             {successUpdate && (
               <MessageBox variant="success">
-                Profile Updated Successfully
+                แก้ไขโปรไฟล์สำเร็จ
               </MessageBox>
             )}
             <div>
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">ชื่อ</label>
               <input
                 id="name"
                 type="text"
-                placeholder="Enter name"
+                placeholder="ชื่อ"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               ></input>
             </div>
             <div>
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">อีเมล์</label>
               <input
                 id="email"
                 type="email"
-                placeholder="Enter email"
+                placeholder="อีเมล์"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               ></input>
             </div>
             <div>
-              <label htmlFor="password">Password</label>
+              <label htmlFor="password">รหัสผ่าน</label>
               <input
                 id="password"
                 type="password"
-                placeholder="Enter password"
+                placeholder="รหัสผ่าน"
                 onChange={(e) => setPassword(e.target.value)}
               ></input>
             </div>
             <div>
-              <label htmlFor="confirmPassword">confirm Password</label>
+              <label htmlFor="confirmPassword">ยืนยันรหัสผ่าน</label>
               <input
                 id="confirmPassword"
                 type="password"
-                placeholder="Enter confirm password"
+                placeholder="ยืนยันรหัสผ่าน"
                 onChange={(e) => setConfirmPassword(e.target.value)}
               ></input>
             </div>
@@ -155,7 +155,7 @@ export default function ProfileScreen() {
             <div>
               <label />
               <button className="primary" type="submit">
-                Update
+                แก้ไข
               </button>
             </div>
           </>
