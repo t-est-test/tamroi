@@ -247,6 +247,7 @@ export default function OrderScreen(props) {
             {/* {order.orderItems.map((item) => (
             <h1>{item.name}</h1>
             ))} */}
+            <Link to="/">กลับหน้าแรก</Link>
             <div className="row top">
                 <div className="col-2">
                     <ul>
