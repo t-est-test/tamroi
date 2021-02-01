@@ -30,26 +30,26 @@ export default function SigninScreen(props) {
     <div>
       <form className="form" onSubmit={submitHandler}>
         <div>
-          <h1>Sign In</h1>
+          <h1>เข้าสู่ระบบ</h1>
         </div>
         {loading && <LoadingBox></LoadingBox>}
         {error && <MessageBox variant="danger">{error}</MessageBox>}
         <div>
-          <label htmlFor="email">Email address</label>
+          <label htmlFor="email">อีเมล์</label>
           <input
             type="email"
             id="email"
-            placeholder="Enter email"
+            placeholder="อีเมล์"
             required
             onChange={(e) => setEmail(e.target.value)}
           ></input>
         </div>
         <div>
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">รหัสผ่าน</label>
           <input
             type="password"
             id="password"
-            placeholder="Enter password"
+            placeholder="รหัสผ่าน"
             required
             onChange={(e) => setPassword(e.target.value)}
           ></input>
@@ -57,15 +57,15 @@ export default function SigninScreen(props) {
         <div>
           <label />
           <button className="primary" type="submit">
-            Sign In
+            เข้าสู่ระบบ
           </button>
         </div>
         <div>
           <label />
           <div>
-            New customer?{' '}
+            ยังไม่มีบัญชีผู้ใช้ใช่หรือไม่?{' '}
             <Link to={`/register?redirect=${redirect}`}>
-              Create your account
+              สร้างบัญชีผู้ใช้
             </Link>
           </div>
         </div>
