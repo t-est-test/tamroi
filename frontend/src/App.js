@@ -62,7 +62,7 @@ function App() {
               <i className="fa fa-bars"></i>
             </button>
             <Link className="brand" to="/">
-              amazona
+              ตามรอยพระพุทธบาท
             </Link>
           </div>
           {/* <div>
@@ -74,7 +74,7 @@ function App() {
           </div> */}
           <div>
             <Link to="/cart">
-              Cart
+              เช็คอิน
               {cartItems.length > 0 && (
                 <span className="badge">{cartItems.length}</span>
               )}
@@ -93,13 +93,13 @@ function App() {
                   </li>
                   <li>
                     <Link to="#signout" onClick={signoutHandler}>
-                      Sign Out
+                      ออกจากระบบ
                     </Link>
                   </li>
                 </ul>
               </div>
             ) : (
-              <Link to="/signin">Sign In</Link>
+              <Link to="/signin">เข้าสู่ระบบ</Link>
             )}
             {/* {userInfo && userInfo.isSeller && (
               <div className="dropdown">
@@ -142,7 +142,7 @@ function App() {
         <aside className={sidebarIsOpen ? 'open' : ''}>
           <ul className="categories">
             <li>
-              <strong>Categories</strong>
+              <strong>หมวดหมู่</strong>
               <button
                 onClick={() => setSidebarIsOpen(false)}
                 className="close-sidebar"
