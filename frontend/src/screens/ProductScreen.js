@@ -78,7 +78,7 @@ export default function ProductScreen(props) {
                 </li>
                 {/* <li>Pirce : ${product.price}</li> */}
                 <li>
-                  รายละเอียด:
+                  รายละเอียด...:
                   <p>{product.description}</p>
                 </li>
                 <br></br>
