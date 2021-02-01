@@ -81,6 +81,24 @@ export default function ProductScreen(props) {
                   รายละเอียด:
                   <p>{product.description}</p>
                 </li>
+                <br></br>
+                  <li className="reference">
+                    <b>อ้างอิง</b>
+                        <p>{product.reference}</p>
+                  </li>
+                <br></br>
+                  <li>
+                      <b>location</b>
+                      <a>
+                        <iframe src={product.location}></iframe>
+                      </a>
+                  </li>
+                  <li>
+                      <b>สถานที่ที่ใกล้เคียง</b>
+                        <p><a href={product.location2}>{product.namelocation2}</a></p>
+                        <p><a href={product.location3}>{product.namelocation3}</a></p>
+                        <p><a href={product.location4}>{product.namelocation4}</a></p>
+                  </li>
               </ul>
             </div>
             <div className="col-1">
@@ -142,7 +160,7 @@ export default function ProductScreen(props) {
                           onClick={addToCartHandler}
                           className="primary block"
                         >
-                          Add to Cart
+                          เช็คอิน
                         </button>
                       </li>
                     </>
