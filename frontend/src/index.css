@@ -201,6 +201,13 @@ img.large {
   border-radius: 0.5rem;
   margin: 1rem;
 }
+.cardhome {
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  width: 235px;
+}
 .card-body {
   padding: 1rem;
 }
