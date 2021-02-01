@@ -208,6 +208,10 @@ img.large {
   margin: 1rem;
   width: 235px;
 }
+.cardhome.card-body a h2 {
+  margin: 0;
+  font-size: 13px;
+}
 .card-body {
   padding: 1rem;
 }
@@ -316,7 +320,7 @@ img.large {
 }
 /* Carousel */
 .carousel .slide img {
-  max-width: 30rem;
+  max-width: 40rem;
 }
 
 /* Search */
