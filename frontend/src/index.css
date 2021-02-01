@@ -27,7 +27,7 @@ body {
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background: linear-gradient(to right, #8f5d21, #e1b85b);
 }
 main {
   grid-area: main;
