@@ -378,3 +378,8 @@ img.large {
 .pagination a.active {
   font-weight: bold;
 }
+
+.col-1 ul li iframe {
+  border: none;
+  width: 100%;
+}
