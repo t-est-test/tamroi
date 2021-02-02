@@ -60,7 +60,7 @@ export default function SearchScreen(props) {
         ) : error ? (
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
-          // <div>{products.length} สถานที่</div>
+          <div className="white">{products.length} สถานที่</div>
         )}
         <div>
           จัดเรียงตาม{' '}
