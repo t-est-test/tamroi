@@ -50,6 +50,9 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+
 }
 a:hover {
   color: #ff8000;
@@ -212,6 +215,7 @@ img.large {
 .card-bodyhome h2 {
   margin: 0;
   font-size: 13px;
+  color: #000000;
 }
 .card-body {
   padding: 1rem;
@@ -249,7 +253,8 @@ img.large {
   border-radius: 0.5rem;
 }
 .alert-info {
-  color: #2020a0;
+  /* color: #2020a0; */
+  color: #000000;
   background-color: #e0e0ff;
 }
 .alert-danger {
@@ -383,4 +388,8 @@ img.large {
 .col-1 ul li iframe {
   border: none;
   width: 100%;
+}
+
+.categories li strong {
+  font-size: 25px;
 }
