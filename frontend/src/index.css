@@ -140,7 +140,10 @@ a.brand {
   flex: 32 1 75rem;
 }
 .min-30 {
-  min-width: 30rem;
+  min-width: 32rem;
+}
+.min-30 a {
+  font-size: 13px;
 }
 .p-1 {
   padding: 1rem;
