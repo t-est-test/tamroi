@@ -106,6 +106,7 @@ a.brand {
   color: #ffffff;
   font-size: 1.7rem;
   font-weight: bold;
+  padding-left: 0.9rem;
 }
 .badge {
   background-color: #f02020;
