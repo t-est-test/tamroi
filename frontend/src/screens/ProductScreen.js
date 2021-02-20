@@ -82,6 +82,8 @@ export default function ProductScreen(props) {
                   <p>{product.description}</p>
                 </li>
                 <br></br>
+                src={product.image2}
+                <br></br>
                   <li className="reference">
                     <b>อ้างอิง</b>
                         <p>{product.reference}</p>
