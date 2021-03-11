@@ -40,8 +40,8 @@ export default function HomeScreen() {
               <div key={seller._id}>
                 <Link to={`/seller/${seller._id}`}>
                   <img src={seller.seller.logo} />
-                  <img src={seller.seller.logo,seller.seller.logo1}  alt={seller.seller.name} />
-                  <p className="legend">{seller.seller.name}</p>
+                  {/* <img src={seller.seller.logo,seller.seller.logo1}  alt={seller.seller.name} />
+                  <p className="legend">{seller.seller.name}</p> */}
                 </Link>
               </div>
             ))}
