@@ -49,7 +49,7 @@ export default function HomeScreen() {
           </Carousel>
         </>
       )}
-      <h2>Update location</h2>
+      <h2>สถานที่ใหม่ล่าสุด</h2>
       {loading ? (
         <LoadingBox></LoadingBox>
       ) : error ? (
